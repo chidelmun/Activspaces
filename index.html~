@@ -1,0 +1,227 @@
+<html>
+<head>
+<title>ActivSpaces Apps</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+     <link rel="stylesheet" type="text/css" href="bootstrap/css/custom.css">
+
+     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+</head>
+
+
+<body style="background-color:#3C6077;">
+<div class="container">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+	 <a style="text-decoration:none;" href="#"><span style="margin-right:35px;" class="text-primary">ACTIVSPACES</span><img class="img img-responsive img-circle" src="logo2.jpg"></img></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Search for  Apps" class="form-control">
+            </div>
+		   <div class="form-group">
+		<h3><span class="glyphicon glyphicon-search text-primary"></span></h3>
+            </div>
+           
+          </form>
+
+		<ul class="nav navbar-nav navbar-right">
+            <li><a href="#">About Activspaces</a></li>
+            <li><a href="#">GDG Buea</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+<div style="background-color:#3C6077;" class="jumbotron"></div>
+
+<div class="jumbotron">
+<p>Please Fill the Form Below to Upload your Android App free of charge to the Android .</p>
+<p>Please Make sure the images are of the specified dimensions 500px x 250px</p>
+</div>
+
+
+<div class="row">
+
+<form class="form-horizontal" role="form">
+<h3>Contact Information</h3></br></br>
+
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Website</label>
+    <div class="col-sm-8">
+      <input type="text" class="form-control" id="inputEmail3" placeholder="www.activspaces.com">
+    </div></br>
+	</br></br>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-8">
+      <input type="user@activspaces.com" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div></br>
+	
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Phone</label>
+    <div class="col-sm-8">
+      <input type="pbone" class="form-control" id="inputEmail3" placeholder="Your Phone number">
+    </div></br>
+	</br></br>
+
+<h3>Listing Details</h3></br></br>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Language</label>
+    <div class="col-sm-8">
+      <select class="form-control">
+  <option>English</option>
+  <option>French</option>
+
+</select>
+    </div>
+  </div></br>
+	</br></br>
+
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Title</label>
+    <div class="col-sm-8">
+      <input type="text" class="form-control" id="inputEmail3" placeholder="8 characters (Max 30) ">
+    </div></br>
+	</br></br>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Description</label>
+    <div class="col-sm-8">
+      <textarea class="form-control" rows="3"  placeholder="32 characters max 4000"></textarea>
+    </div>
+  </div></br>
+	</br></br>
+
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Recent Changes</label>
+    <div class="col-sm-8">
+      <textarea class="form-control" rows="3" placeholder="44 characters max 500"></textarea>
+    </div></br>
+	</br></br>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Promo Text</label>
+    <div class="col-sm-8">
+     <textarea class="form-control" rows="3" placeholder="11 characters max 80"></textarea>
+    </div>
+  </div></br>
+	</br></br>
+
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Application Type</label>
+    <div class="col-sm-8">
+       <select class="form-control">
+  <option>Game</option>
+  <option>Education</option>
+ <option>News</option>
+  <option>Productivityc</option>
+ <option>Fashion</option>
+  <option>Social</option>
+
+</select>
+    </div></br>
+	</br></br>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Category</label>
+    <div class="col-sm-8">
+           <select class="form-control">
+  <option>Education</option>
+ <option>News</option>
+  <option>Productivity</option>
+ <option>Fashion</option>
+<option>Game</option>
+  <option>Social</option>
+
+</select>
+    </div>
+  </div></br>
+	</br></br>
+
+<h3>Upload Assets</h3>
+
+ <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Screen Shoots</label>
+    <div class="col-sm-8">
+      <input type="file" class="form-control" id="inputPassword3" placeholder="screenshoots">
+	<input type="file" class="form-control" id="inputPassword3" placeholder="screenshoots">
+	<input type="file" class="form-control" id="inputPassword3" placeholder="screenshoots">
+    </div>
+  </div></br>
+	
+ <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">High Resolution Application Icon</label>
+    <div class="col-sm-8">
+      <input type="file" class="form-control" id="inputPassword3" placeholder="Icon">
+    </div>
+  </div></br>
+	
+ <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Promotional Graphic</label>
+    <div class="col-sm-8">
+      <input type="file" class="form-control" id="inputPassword3" placeholder="Optional">
+    </div>
+  </div></br>
+	</br></br>
+
+ <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Feature Graphic</label>
+    <div class="col-sm-8">
+      <input type="file" class="form-control" id="inputPassword3" placeholder="Optional">
+    </div>
+  </div></br>
+	</br></br>
+
+ <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Promotional Video</label>
+    <div class="col-sm-8">
+      <input type="text" class="form-control" id="inputPassword3" placeholder="www.youtube.com/video">
+    </div>
+  </div></br>
+	</br></br>
+
+
+ <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Upload New APK</label>
+    <div class="col-sm-8">
+      <input type="file" class="form-control" id="inputPassword3" placeholder="Upload apk file here. Size not more than 500MB">
+    </div>
+  </div></br>
+	</br>
+
+	
+	<button style="margin-left:85%;" type="submit" class="btn btn-primary">Submit App Details<span class ="glyphicon glyphicon-share-alt"></span></button>
+  
+ 
+</form>
+
+
+
+</div>
+
+
+
+
+
+</div>
+</body>
+
+
+
+</html>
